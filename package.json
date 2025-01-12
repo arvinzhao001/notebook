@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build payment.md --outDir=dist/payment",
+    "build": "slidev build payment.md --out dist/payment",
     "dev": "slidev --open",
     "export": "slidev export"
   },
