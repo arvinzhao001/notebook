@@ -24,3 +24,13 @@ mdc: true
 <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
   Press Space for next page <carbon:arrow-right />
 </div>
+---
+title: 图片和描述
+---
+
+# 图片和描述
+
+<div class="flex flex-col items-center">
+  <img src="/Users/qiangqiang.zhao/Experiment/slidev/dist/payment/resource/global_account.png" alt="描述图片" class="w-1/2 mt-5"/>
+  <p class="mt-5 text-center">这是图片的描述。</p>
+</div>
