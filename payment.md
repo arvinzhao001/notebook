@@ -5,10 +5,10 @@ theme: seriph
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://unsplash.com/photos/water-splash-in-close-up-photography-SHE_ZiroE0g
 # some information about your slides (markdown enabled)
-title: Payment and Account Guide
+title: Payment Guide
 info: |
   ## Slidev Starter Template
-  Introduction of Payment and Account.
+  Introduction of Payment.
 # apply unocss classes to the current slide
 class: text-center
 # https://sli.dev/features/drawing
@@ -19,7 +19,7 @@ transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 ---
-# Introduction of Payment and Account
+# Payment Introduction
 
 <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
   Press Space for next page <carbon:arrow-right />
@@ -29,6 +29,7 @@ transition: fade-out
 ---
 
 # 支付过程
+
 支付定义：付款人向收款人转移可被双方接受的债权资产。
 支付过程可以划分为三个阶段：交易、清算和结算，这是支撑所有支付行为的核心框架。
 
@@ -67,7 +68,7 @@ layout: center
 
 <div class="grid grid-cols-1 gap-4">
   <div class="flex justify-center">
-    <img src="./resource/payment/transaction.png" alt="图片描述" class="w-3/4 h-auto">
+    <img src="./resource/payment/payment/transaction.png" alt="图片描述" class="w-3/4 h-auto">
   </div>
 </div>
 整个交易过程包括选购、计价和下单等多个环节：
@@ -82,7 +83,7 @@ layout: center
 
 <div class="grid grid-cols-1 gap-4">
   <div class="flex justify-center">
-    <img src="./resource/payment/collection and setttlement.png" alt="图片描述" class="w-3/4 h-auto">
+    <img src="./resource/payment/payment/collection and setttlement.png" alt="图片描述" class="w-3/4 h-auto">
   </div>
 </div>
 收银产品包括收银台产品及对外暴露的接口。重点介绍几种收银台产品:
@@ -96,13 +97,13 @@ layout: center
 
 <div class="grid grid-cols-1 gap-4">
   <div class="flex justify-center">
-    <img src="./resource/cb/cb fund flow-amazon-pay-to-china-seller.png" alt="亚马逊支付资金流向" class="w-3/4 h-auto">
+    <img src="./resource/payment/cb/cb fund flow-amazon-pay-to-china-seller.png" alt="亚马逊支付资金流向" class="w-3/4 h-auto">
   </div>
 </div>
 
 <div class="grid grid-cols-1 gap-4">
   <div class="flex justify-center">
-    <img src="./resource/cb/cb fund flow-refine.png" alt="资金流向精简图" class="w-3/4 h-auto">
+    <img src="./resource/payment/cb/cb fund flow-refine.png" alt="资金流向精简图" class="w-3/4 h-auto">
   </div>
 </div>
 
@@ -114,10 +115,8 @@ layout: center
 
 ---
 
-
 # 参考文献
 
 - [微信平台收付通](https://pay.weixin.qq.com/static/partner_ability/business_payment.shtml)
 
 ---
-
