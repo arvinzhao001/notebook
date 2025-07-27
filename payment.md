@@ -67,7 +67,7 @@ layout: center
 
 <div class="grid grid-cols-1 gap-4">
   <div class="flex justify-center">
-    <img src="./dist/payment/resource/transaction.png" alt="图片描述" class="w-3/4 h-auto">
+    <img src="./resource/payment/transaction.png" alt="图片描述" class="w-3/4 h-auto">
   </div>
 </div>
 整个交易过程包括选购、计价和下单等多个环节：
@@ -77,10 +77,47 @@ layout: center
 - 📝 **计费** - 在下单过程中，还会涉及计价环节，主要是计算订单的优惠信息以及应付金额（即用户应该支付的总金额）。
 
 ---
-layout: cover
+
+# 收单结算
+
+<div class="grid grid-cols-1 gap-4">
+  <div class="flex justify-center">
+    <img src="./resource/payment/collection and setttlement.png" alt="图片描述" class="w-3/4 h-auto">
+  </div>
+</div>
+收银产品包括收银台产品及对外暴露的接口。重点介绍几种收银台产品:
+
+- 📝 [收银台支付](https://product.shopeepay.com/products/online-payments/checkout-with-shopeepay/) -日常电商购物常见场景，其他变体形式，例如：[Web免登录收银台支付](https://product.shopeepay.com/products/online-payments/link-and-pay/),[二维码扫描支付](https://product.shopeepay.com/products/in-person-payments/merchant-presented-mode/)
+- 📝 [代扣/协议支付](https://product.shopeepay.com/products/online-payments/subscription/) - 周期性续费扣款。
+- 📝 [预授权支付](https://product.shopeepay.com/products/online-payments/auth-and-capture/) - 比较灵活的扣款方式，运行商户确定扣款时机，但有个提前锁定环节。
 ---
+
+# 资金流向
+
+<div class="grid grid-cols-1 gap-4">
+  <div class="flex justify-center">
+    <img src="./resource/cb/cb fund flow-amazon-pay-to-china-seller.png" alt="亚马逊支付资金流向" class="w-3/4 h-auto">
+  </div>
+</div>
+
+<div class="grid grid-cols-1 gap-4">
+  <div class="flex justify-center">
+    <img src="./resource/cb/cb fund flow-refine.png" alt="资金流向精简图" class="w-3/4 h-auto">
+  </div>
+</div>
+
+资金流向图展示了支付过程中资金的转移路径：
+
+- 📝 **买家支付** - 买家通过支付渠道(如信用卡)向支付平台支付货款
+- 📝 **平台结算** - 支付平台在扣除相关费用后，将货款结算给商家
+- 📝 **跨境支付** - 对于跨境交易，还需要考虑货币兑换和跨境结算等环节
+
+---
+
 
 # 参考文献
 
 - [微信平台收付通](https://pay.weixin.qq.com/static/partner_ability/business_payment.shtml)
+
+---
 
