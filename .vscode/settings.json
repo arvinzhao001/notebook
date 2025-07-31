@@ -1,0 +1,11 @@
+{
+    "slidev.include": [
+        "**/slides.md",
+        "**/payment.md",
+        "**/guide.md",
+        "guide.md",
+        "prompt.md",
+        "payment.md",
+        "nss.md"
+    ]
+}

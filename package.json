@@ -3,7 +3,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build payment.md --out dist/payment",
+    "build": "npm run build:nss",
+    "build:nss": "slidev build nss.md --out dist/nss",
+    "build:payment": "slidev build payment.md --out dist/payment",
+    "build:guide": "slidev build guide.md --out dist/guide",
     "dev": "slidev --open",
     "export": "slidev export"
   },
