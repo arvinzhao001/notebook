@@ -8,7 +8,8 @@
     "build:payment": "slidev build payment.md --out dist/payment",
     "build:guide": "slidev build guide.md --out dist/guide",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export",
+    "format": "slidev format"
   },
   "dependencies": {
     "@slidev/cli": "^0.51.0-beta.4",
