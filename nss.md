@@ -16,29 +16,8 @@ layout: center
 ---
 
 # 目录
-<div class="mt-16 space-y-6 text-left max-w-md">
 
-<div class="flex items-center space-x-4">
-  <div class="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold">1</div>
-  <div class="text-xl">NSS简介</div>
-</div>
-
-<div class="flex items-center space-x-4">
-  <div class="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold">2</div>
-  <div class="text-xl">SF怎么算</div>
-</div>
-
-<div class="flex items-center space-x-4">
-  <div class="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold">3</div>
-  <div class="text-xl">SF怎么收</div>
-</div>
-
-<div class="flex items-center space-x-4">
-  <div class="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold">4</div>
-  <div class="text-xl">如何防资损</div>
-</div>
-
-</div>
+<Toc text-sm minDepth="1" maxDepth="2" />
 
 ---
 layout: section
@@ -70,6 +49,7 @@ layout: section
 
 ---
 layout: end
+hideInToc: true
 ---
 
 # 谢谢
