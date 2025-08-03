@@ -1,15 +1,6 @@
 ---
-theme: default
-title: NSS财务建设
-info: |
-  ## NSS财务建设
+theme: seriph
 class: text-center
-highlighter: shiki
-lineNumbers: false
-drawings:
-  persist: false
-colorSchema: light
-css: unocss
 ---
 
 # NSS财务建设
