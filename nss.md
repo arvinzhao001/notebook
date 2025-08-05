@@ -34,6 +34,19 @@ layout: section
 <div class="text-base opacity-60 mt-4">计费因子，计费规则，计费单</div>
 
 ---
+layout: default
+---
+
+## Billing Rules
+
+
+```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
+sequenceDiagram
+    Alice->John: Hello John, how are you?
+    Note over Alice,John: A typical interaction
+```
+
+---
 layout: section
 ---
 
